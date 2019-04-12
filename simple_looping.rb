@@ -47,7 +47,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-   counter = number_of_times
+   counter = (number_of_times)(.to_a)
    
    for counter in 
   # code your solution here using the "for" keyword
